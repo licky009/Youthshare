@@ -23,6 +23,7 @@ jobs:
           npm install
           npm install cron
           npm install request
+          npm install got
           npm install md5-node
       - name: '运行 【youthshare】'
         run: |
